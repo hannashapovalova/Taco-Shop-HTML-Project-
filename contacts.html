@@ -68,6 +68,71 @@
       </figcaption>
     </figure>
   </header>
+
+  <main>
+    <section>
+      <h2>
+        Our Contact Form
+      </h2>
+      <form 
+       action="https://httpbin.org/get" 
+       method="get">
+        <fieldset>
+          <legend>
+            Send Us A Message
+          </legend>
+          <p>
+            <label for="name">
+              Name:
+            </label>
+            <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            placeholder="your name" 
+            autocomplete="on" 
+            required>
+          </p>
+          <p>
+            <label for="email">
+              Email:
+            </label>
+            <input 
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your email"
+            required>
+          </p>
+          <label for="message">
+            Your massage:
+          </label>
+          <br>
+          <textarea 
+          name="message" 
+          id="message" 
+          cols="30" 
+          rows="10" 
+          placeholder="Type your message here">
+          </textarea>
+        </fieldset>
+        <br>
+        <button type="submit">
+          Submit
+        </button>
+        <button type="reset">
+          Reset
+        </button>
+      </form>
+
+    </section>
+
+
+    <section>
+
+    </section>
+  </main>
+  
     
 </body>
 </html>
